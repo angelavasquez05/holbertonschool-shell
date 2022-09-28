@@ -1,2 +1,2 @@
 #!/bin/bash
-basepath=$(cd `dirname $0`; pwd) \n
+path= `readlink -f "${BASH_SOURCE:-$0}"`  \n
