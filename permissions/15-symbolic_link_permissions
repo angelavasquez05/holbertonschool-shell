@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -h vincent:staff symlink
+chown -h vincent:staff symblink
