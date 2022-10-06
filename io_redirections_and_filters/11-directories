@@ -1,2 +1,2 @@
 #!/bin/bash
-find .-mindepth 1 -name | wc -l 
+find ./a -maxdepth 2 -mindepth 2 | wc -l 
