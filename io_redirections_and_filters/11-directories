@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name ".*" -mindepth 2 | wc -l 
+find . -mindepth 2 -iname ".*" -ls | wc -l 
