@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print $1 ":" $6}' 22-users_and_homes
+cut -d ":" -f1 /etc/passwd
