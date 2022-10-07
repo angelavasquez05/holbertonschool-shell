@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c [a-z,A-Z]* /etc/ssh/sshd_config
+tail -n [a-z,A-Z]*. /etc/ssh/sshd_config
